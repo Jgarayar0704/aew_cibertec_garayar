@@ -1,5 +1,14 @@
 
 h1 {
-    color:rgb(147, 129, 214);
+    color:rgb(129, 214, 207);
     margin: 10;
+}
+
+p {
+    color:green
+}
+
+.mi-descripcion p {
+    color:brown;
+    text-align: center;
 }
