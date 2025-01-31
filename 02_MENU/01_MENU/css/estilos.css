@@ -1,1 +1,12 @@
 
+body {
+    background-image: url(../image/fondo.jpg);
+}
+
+nav{
+    max-width: 900px;
+    margin:auto;
+    background-color: #213555;
+    font-size: 20px;
+    margin-top: 50px;
+}
