@@ -16,10 +16,36 @@ nav {
     justify-content: space-around;
 }
 
+.menu-horizontal > li > a {
+    color: whitesmoke;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: #FADA7A;
+}
+
 .submenu-catalogo {
     position: absolute;
     list-style: none;
     width: 200px;
     background-color: #D6C0B3;
     display: none;
+}
+
+.menu-horizontal li:hover .submenu-catalogo {
+    display: block;
+}
+
+.submenu-catalogo > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.submenu-catalogo > li:hover {
+    background-color: #B1C29E;
 }
